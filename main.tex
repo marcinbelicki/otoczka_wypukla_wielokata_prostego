@@ -1,0 +1,49 @@
+
+% Preamble
+\documentclass[11pt]{article}
+
+\newcommand*{\srcDirectory}{src}
+\newcommand*{\importDirectory}{imports}
+\newcommand*{\settingsDirectory}{settings}
+\newcommand*{\tikzDirectory}{tikz}
+\newcommand*{\importDirectDirectory}{\srcDirectory/\importDirectory}
+\newcommand*{\settingsDirectDirectory}{\srcDirectory/\settingsDirectory}
+\newcommand*{\tikzDirectDirectory}{\srcDirectory/\tikzDirectory}
+
+\include{\importDirectDirectory/pl}
+\include{\settingsDirectDirectory/pagesize}
+\include{\settingsDirectDirectory/pagenumber}
+\include{\settingsDirectDirectory/darkmode}
+\include{\importDirectDirectory/math}
+\include{\importDirectDirectory/tikz}
+\include{\tikzDirectDirectory/point}
+\include{\tikzDirectDirectory/layers}
+
+\begin{document}
+
+\thispagestyle{empty}
+    \null
+    \vspace{5cm}
+    \begin{center}
+        \begin{Huge}
+            \fontsize{50pt}{50pt}\selectfont{Otoczki wypukłe wielokąta prostego}
+        \end{Huge}
+    \end{center}
+    \vspace{5cm}
+    
+   \begin{flushright}
+   
+   \Huge{Marcin Belicki} 
+   \end{flushright}
+        
+    
+    \newpage
+    \begin{LARGE}
+        \textbf{Otoczka wypukła} - dla zbioru punktów $Z\subset\mathbb{R}^2$ 
+        jest to wielokąt wypukły $H(Z)$, taki że zawiera w swoim wnętrzu lub na krawędziach 
+        wszystkie punkty $p\in Z$, a przy tym mając pole najmniejsze z możliwych.
+        \begin{center}
+            \includestandalone[height = 11 cm]{\tikzDirectDirectory/1}
+        \end{center}    
+    \end{LARGE}      
+\end{document}

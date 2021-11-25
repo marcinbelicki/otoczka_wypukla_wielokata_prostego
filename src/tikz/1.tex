@@ -1,0 +1,35 @@
+
+\begin{tikzpicture}
+   \node[point,label=1]  (1)  at (4, 11) {};
+   \node[point,label=2]  (2)  at (7, 3) {};
+   \node[point,label=3]  (3)  at (17, 16) {};
+   \node[point,label=4]  (4)  at (20, 6) {};
+   \node[point,label=5]  (5)  at (13, 18) {};
+   \node[point,label=6]  (6)  at (2, 0) {};
+   \node[point,label=7]  (7)  at (1, 14) {};
+   \node[point,label=8]  (8)  at (15, 5) {};
+   \node[point,label=9]  (9)  at (8, 10) {};
+   \node[point,label=10] (10) at (19, 9) {};
+   \node[point,label=11] (11) at (0, 17) {};
+   \node[point,label=12] (12) at (11, 18) {};
+   \node[point,label=13] (13) at (5, 7) {};
+   \node[point,label=14] (14) at (6, 15) {};
+   \node[point,label=15] (15) at (13, 16) {};
+   \node[point,label=16] (16) at (20, 3) {};
+   \node[point,label=17] (17) at (1, 9) {};
+   \node[point,label=18] (18) at (2, 10) {};
+   \node[point,label=19] (19) at (4, 14) {};
+   \node[point,label=20] (20) at (12, 8) {};
+
+    \begin{pgfonlayer}{bg}
+        \draw[draw=blue!50!black,fill=blue!5!black] 
+              (6.center)--
+              (16.center)--
+              (4.center)--
+              (3.center)--
+              (5.center)--
+              (12.center)--
+              (11.center)--
+              cycle;
+    \end{pgfonlayer}
+\end{tikzpicture}
