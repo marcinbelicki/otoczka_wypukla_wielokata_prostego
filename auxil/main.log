@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.22)  22 NOV 2021 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.22)  26 NOV 2021 17:00
 entering extended mode
 **./main.tex
 (main.tex
@@ -594,7 +594,42 @@ File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathmorphing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen269
+\pgfdecoratedremainingdistance=\dimen270
+\pgfdecoratedinputsegmentcompleteddistance=\dimen271
+\pgfdecoratedinputsegmentremainingdistance=\dimen272
+\pgf@decorate@distancetomove=\dimen273
+\pgf@decorate@repeatstate=\count295
+\pgfdecorationsegmentamplitude=\dimen274
+\pgfdecorationsegmentlength=\dimen275
+)
+\tikz@lib@dec@box=\box83
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathmorphing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathreplacing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathreplacing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.shapes.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.shapes.code.tex))))
 (C:\Program Files\MiKTeX\tex/latex/standalone\standalone.sty
 Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with prea
 mbles
@@ -611,7 +646,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count295
+\XKV@depth=\count296
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/currfile\currfile.sty
@@ -636,7 +671,7 @@ Package: filehook 2020/09/29 v0.8a Hooks for input files
 0.sty
 Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
 ))
-\c@currfiledepth=\count296
+\c@currfiledepth=\count297
 )
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/gincltex\gincltex.sty
 
@@ -660,40 +695,40 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/collectbox\collectbox
 .sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box83
+\collectedbox=\box84
 )
-\tc@llx=\dimen269
-\tc@lly=\dimen270
-\tc@urx=\dimen271
-\tc@ury=\dimen272
+\tc@llx=\dimen276
+\tc@lly=\dimen277
+\tc@urx=\dimen278
+\tc@ury=\dimen279
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/adjustbox\tc-pdftex.d
 ef
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen273
-\adjbox@Height=\dimen274
-\adjbox@Depth=\dimen275
-\adjbox@Totalheight=\dimen276
-\adjbox@pwidth=\dimen277
-\adjbox@pheight=\dimen278
-\adjbox@pdepth=\dimen279
-\adjbox@ptotalheight=\dimen280
+\adjbox@Width=\dimen280
+\adjbox@Height=\dimen281
+\adjbox@Depth=\dimen282
+\adjbox@Totalheight=\dimen283
+\adjbox@pwidth=\dimen284
+\adjbox@pheight=\dimen285
+\adjbox@pdepth=\dimen286
+\adjbox@ptotalheight=\dimen287
 
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.s
 ty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count297
+\c@checkoddpage=\count298
 )
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box84
-\sift@deathcycles=\count298
-\@vwid@loff=\dimen281
-\@vwid@roff=\dimen282
+\@vwid@box=\box85
+\sift@deathcycles=\count299
+\@vwid@loff=\dimen288
+\@vwid@roff=\dimen289
 ))
-\gincltex@box=\box85
+\gincltex@box=\box86
 )
 (C:\Users\Marcin Belicki\AppData\Roaming\MiKTeX\tex/latex/filemod\filemod-expmi
 n.sty
@@ -710,37 +745,47 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 20.
 
 (src/tikz/layers.tex
-\pgf@layerbox@bg=\box86
-\pgf@layerboxsaved@bg=\box87
+\pgf@layerbox@bg=\box87
+\pgf@layerboxsaved@bg=\box88
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 22
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 21.
+
+(src/tikz/tstar.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 22.
+
+(src/tikz/ngram.tex)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26
 .
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box88
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box89
 )
 (C:/Users\Marcin Belicki\Documents\informatyka\2\seminarium_magisterskie\otoczk
 a_wypukla_wielokata_prostego\out\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -778,16 +823,16 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen283
-\scratchbox=\box89
-\nofMPsegments=\count301
-\nofMParguments=\count302
+\scratchcounter=\count301
+\scratchdimen=\dimen290
+\scratchbox=\box90
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen284
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen291
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks38
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -799,43 +844,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
 {C:/Users/Marcin Belicki/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-2.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+1.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-2.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+1.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-42.
+51.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-42.
+51.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 42.
+(Font)              <17.28> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 42.
+(Font)              <12> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 42.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+(Font)              <10> on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -843,16 +888,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (src/tikz/1.tex)
 File: src/tikz/1.tex Graphic file (type tex)
  [2]
+(src/tikz/star_0.tex (src/tikz/star.tex) (src/tikz/2_0.tex)
+File: src/tikz/2_0.tex Graphic file (type tex)
+) [3]
+(src/tikz/star_1.tex (src/tikz/star.tex) (src/tikz/2_1.tex)
+File: src/tikz/2_1.tex Graphic file (type tex)
+) [4]
+(src/tikz/star_2.tex (src/tikz/star.tex) (src/tikz/2_2.tex)
+File: src/tikz/2_2.tex Graphic file (type tex)
+) [5]
+(src/tikz/star_3.tex (src/tikz/star.tex) (src/tikz/2_3.tex)
+File: src/tikz/2_3.tex Graphic file (type tex)
+) [6]
+(src/tikz/star_4.tex (src/tikz/2_3.tex)
+File: src/tikz/2_3.tex Graphic file (type tex)
+) [7]
 (C:/Users\Marcin Belicki\Documents\informatyka\2\seminarium_magisterskie\otoczk
 a_wypukla_wielokata_prostego\out\main.aux) ) 
 Here is how much of TeX's memory you used:
- 19289 strings out of 478699
- 397481 string characters out of 2856789
- 711607 words of memory out of 3000000
- 36955 multiletter control sequences out of 15000+600000
- 431818 words of font info for 50 fonts, out of 8000000 for 9000
+ 20277 strings out of 478699
+ 429325 string characters out of 2856789
+ 726301 words of memory out of 3000000
+ 37872 multiletter control sequences out of 15000+600000
+ 434833 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,11n,109p,460b,901s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 107i,11n,109p,467b,905s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/
 dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Pr
 ogram Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fo
@@ -863,10 +923,10 @@ pe1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on "C:/Users\Marcin Belicki\Documents\informatyka\2\seminarium_m
-agisterskie\otoczka_wypukla_wielokata_prostego\out\main.pdf" (2 pages, 111551 b
+agisterskie\otoczka_wypukla_wielokata_prostego\out\main.pdf" (7 pages, 124876 b
 ytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

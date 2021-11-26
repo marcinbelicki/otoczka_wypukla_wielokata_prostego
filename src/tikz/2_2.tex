@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    \ngram{5}{5}{54}{draw}{a}         
+    \begin{pgfonlayer}{bg}
+        \draw[draw=blue!50!black,fill=blue!5!black] 
+            (a-1-0)--
+            (a-2-0)--
+            (a-3-0)--
+            (a-4-0)--
+            (a-5-0)--
+            cycle;
+    \end{pgfonlayer}
+    \draw[draw=none](a-5-0)--++(0,-6) coordinate (b);
+
+    \draw (b)--++(0,10);
+
+ \end{tikzpicture}
+ 

@@ -18,6 +18,10 @@
 \include{\importDirectDirectory/tikz}
 \include{\tikzDirectDirectory/point}
 \include{\tikzDirectDirectory/layers}
+\include{\tikzDirectDirectory/tstar}
+\include{\tikzDirectDirectory/ngram}
+
+
 
 \begin{document}
 
@@ -38,12 +42,34 @@
         
     
     \newpage
+    \begin{center}
+        \begin{Huge}
+            \fontsize{46pt}{46pt}\selectfont{Definicja}
+        \end{Huge}   
+    \end{center}
     \begin{LARGE}
         \textbf{Otoczka wypukła} - dla zbioru punktów $Z\subset\mathbb{R}^2$ 
         jest to wielokąt wypukły $H(Z)$, taki że zawiera w swoim wnętrzu lub na krawędziach 
         wszystkie punkty $p\in Z$, a przy tym mając pole najmniejsze z możliwych.
         \begin{center}
-            \includestandalone[height = 11 cm]{\tikzDirectDirectory/1}
+            \includestandalone[height = 10 cm]{\tikzDirectDirectory/1}
         \end{center}    
-    \end{LARGE}      
+    \end{LARGE}   
+    
+    \newpage
+    \input{\tikzDirectDirectory/star_0}
+
+    \newpage
+    \input{\tikzDirectDirectory/star_1}
+
+    \newpage
+    \input{\tikzDirectDirectory/star_2}
+
+    \newpage
+    \input{\tikzDirectDirectory/star_3}
+
+    \newpage
+    \input{\tikzDirectDirectory/star_4}
+    
+
 \end{document}

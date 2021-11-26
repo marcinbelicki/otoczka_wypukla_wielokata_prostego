@@ -1,0 +1,7 @@
+
+%https://tex.stackexchange.com/questions/58903/how-to-draw-star-in-tikz-background
+\newcommand{\ngram}[5]{% outer radius, tips, rot angle, options
+    \pgfmathsetmacro{\starangle}{360/#2}
+    \pgfmathsetmacro{\innerradius}{#1*sin(90-\starangle)/sin(90+\starangle/2)}
+    \tstar{\innerradius}{#1}{#2}{#3}{#4}{#5}
+}
