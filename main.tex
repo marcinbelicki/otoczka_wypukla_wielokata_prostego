@@ -10,6 +10,9 @@
 \newcommand*{\settingsDirectDirectory}{\srcDirectory/\settingsDirectory}
 \newcommand*{\tikzDirectDirectory}{\srcDirectory/\tikzDirectory}
 
+
+\usepackage{enumitem}
+\usepackage{hyperref}
 \include{\importDirectDirectory/pl}
 \include{\settingsDirectDirectory/pagesize}
 \include{\settingsDirectDirectory/pagenumber}
@@ -48,9 +51,7 @@
         \end{Huge}   
     \end{center}
     \begin{LARGE}
-        \textbf{Otoczka wypukła} - dla zbioru punktów $Z\subset\mathbb{R}^2$ 
-        jest to wielokąt wypukły $H(Z)$, taki że zawiera w swoim wnętrzu lub na krawędziach 
-        wszystkie punkty $p\in Z$, a przy tym mając pole najmniejsze z możliwych.
+        \textbf{Otoczka wypukła} - dla zbioru punktów $Z\subset\mathbb{R}^2$ jest to wielokąt wypukły $H(Z)$, taki że zawiera w swoim wnętrzu lub na krawędziach wszystkie punkty $p\in Z$, a przy tym mając pole najmniejsze z możliwych.
         \begin{center}
             \includestandalone[height = 10 cm]{\tikzDirectDirectory/1}
         \end{center}    
@@ -70,6 +71,81 @@
 
     \newpage
     \input{\tikzDirectDirectory/star_4}
+
+    \newpage
+    \begin{center}
+    \begin{Huge}
+        \fontsize{46pt}{46pt}\selectfont{Zastosowania}
+    \end{Huge}   
+    \end{center}
+    \begin{LARGE}        
+        Otoczka wypukła może okazać się również bardzo przydatna w kartografii. Używa się jej na przykład do generalizacji obszarów. Choć sama otoczka obszaru Polski nie jest zbyt dobrą jej reprezentacją to możemy wyznaczyć również otoczki wypukłe obszarów utworzonych przez krawędzie otoczki wypykłej oraz punkty zawarte ,,pod'' odpowiednimi krawędziami. W ten sposób możemy rekurencyjnie uzyskać coraz dokładniejszy obszar. Dzięki czemu jesteśmy w stanie  kontrolować dokładność w zależności od naszych potrzeb.
+        \vspace*{\fill}
+        \begin{center}
+            \includestandalone{\tikzDirectDirectory/3}
+            \hspace{1cm}
+            \includestandalone{\tikzDirectDirectory/convex}
+            \hspace{1cm}
+            \includestandalone{\tikzDirectDirectory/convex2}
+        \end{center} 
+    \end{LARGE}  
     
+    \newpage
+    \begin{center}
+    \begin{Huge}
+        \fontsize{46pt}{46pt}\selectfont{Zastosowania}
+    \end{Huge}   
+    \end{center}
+    \begin{LARGE} 
+        Kolejnym przykładem obszaru zastosowania otoczki wypukłej może być przetwarzanie sygnałów. Często zdarza się w przypadku badania sygnałów okresowych, że przebieg samego sygnału nie niesie ze sobą zbyt wielu bezpośrednich informacji. Dlatego też w celu analizy właściwości   amplitudy sygnału potrzebna jest jego obwiednia. Dzięki wykorzystaniu otoczki wypukłej jesteśmy w stanie rekurencyjnie wyznaczyć punkty należące do obwiedni.        
+        \begin{center}
+            \includegraphics[decodearray={0.6 0 0.6 0 0.6 0},height=8cm]{\srcDirectory/envelope}
+        \end{center} 
+    \end{LARGE} 
+
+    \newpage
+    \begin{center}
+    \begin{Huge}
+        \fontsize{46pt}{46pt}\selectfont{Algorytm wyznaczania otoczki wypukłej wielokąta prostego}
+    \end{Huge}   
+    \end{center}
+    \begin{Large} 
+        \begin{minipage}{0.4\textwidth}
+            \includegraphics[decodearray={0.6 0 0.6 0 0.6 0},height=11cm]{1}
+        \end{minipage}
+        \begin{minipage}{0.6\textwidth}
+            W swoim artykule Ronald L. Graham oraz F. Frances Yao przedstawili algorytm wyznaczający otoczkę wypukłą wielokąta prostego w czasie liniowym. Jest to istotne, zwłaszcza ze względu na fakt, iż wiadome jest, że wyznaczenie otoczki wypukłej zbioru punktóww ma złożoność czasową $O\left(n \log n\right)$. W celu zastosowania algorytmu LeftHull, wielokąt należy wstępnie przetworzyć - to jest podzielić na dwa wielokąty prostą łączącą dwa skrajne punkty (które na pewno wyznaczać). Następnie po przeprowadzeniu algorytmu dla każdej z tych części rozwiązania należy połączyć.\\
+            Założenia:\\
+            Punkty są uporządkowane w kolejności zgodnie ze wskazówkami zegara.\\
+            $$\left(a,b,c\right) = \left\{
+                \begin{array}{cl}
+                    1 & \text{dla punktu $c$ leżącego na prawo od prostej $ab$}\\    
+                    0 & \text{dla punktu $c$ leżącego na prostej $ab$}\\      
+                    -1 & \text{dla punktu $c$ leżącego na lewo od prostej $ab$}   
+                \end{array}
+                
+                
+                \right.$$
+        \end{minipage}
+    \end{Large} 
+
+    \newpage
+    \begin{center}
+    \begin{Huge}
+        \fontsize{46pt}{46pt}\selectfont{Źródła}
+    \end{Huge}   
+    \end{center}
+    \begin{large} 
+        \begin{enumerate}[label={[\arabic*]}]
+        
+            \item Ronald L. Graham, Frances Yao, Finding the Convex Hull of a Simple Polygon (1981)
+            \item \url{https://pl.wikipedia.org/wiki/Obwiednia_sygna%C5%82u#/media/Plik:C_Envelope_follower.png}
+               [dostęp: 27.11.2021 10:29] 
+            \item John Hershberg, Jack Snoeyink, Cartographic line simplification and polygon CSG formula in $O\left(n\log^* n\right)$ time (1997 - 1998)
+            \item \url{https://gis-support.pl/wp-content/uploads/CNTR_RG_01M_2016_4326.shp_.zip}
+               [dostęp: 27.11.2021 10:47] 
+        \end{enumerate}
+    \end{large} 
+
 
 \end{document}
